@@ -1,0 +1,139 @@
+#nav{
+    z-index: 99;
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    word-spacing: 5px;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    transition: all 250ms;
+}
+#nav a:hover{
+    color: #fdc63c;
+}
+#home{
+    padding-left: 5vw;
+}
+
+#landing{
+    background: url('/assets/images/bg.png'),linear-gradient(to left,#7b4397,#dc2430);
+    padding-top: 25vh;
+    height: 110vh;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#btn-free{
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: solid white 1px;
+    background-color: transparent;
+    padding:  10px 30px;
+    color: white;
+    transition: all 250ms;
+}
+
+#btn-free:hover{
+    background-color: #fdc63c;
+    border: solid 1px #fdc63c;
+}
+#download{
+    background-color: #fdc63c;
+    /* padding-top: 10vh; */
+    height: 85vh;
+    text-align: center;
+}
+#download-details{
+    margin-top: 20vh;
+}
+#download-details h1{
+    font-size: 60px;
+}
+#download-details p{
+    font-size: 20px;
+}
+
+#features{
+    background-color: whitesmoke;
+    /* padding-top: 10vh; */
+    height: 120vh;
+    text-align: center;
+}
+#features-details{
+    margin-top: 20vh;
+}
+#features i{
+    font-size: 80px;
+}
+#features h1{
+    font-size: 30px;
+}
+#extra{
+    padding-top: 10vh;
+}
+#start{
+    background-image: url('/assets/images/bigbg.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    /* padding-top: 10vh; */
+    height: 110vh;
+}
+#start-details{
+    padding-top: 20vh;
+    padding-left: 15vh;
+    color: white;
+    font-size: 50px;
+}
+#btn-start{
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: solid white 1px;
+    background-color: transparent;
+    padding:  10px 30px;
+    color: white;
+    transition: all 250ms;
+}
+#btn-start:hover{
+    background-color: #fdc63c;
+    border: solid 1px #fdc63c;
+}
+
+#social{
+    background-color: #fdc63c;
+    /* padding-top: 10vh; */
+    height: 60vh;
+    text-align: center;
+}
+
+#social-details{
+    margin-top: 10vh;
+}
+#social-details a{
+    font-size: 80px;
+    padding: 5px;
+}
+#footer{
+    background-color: rgb(66, 63, 63);
+    /* padding-top: 10vh; */
+    height: 15vh;
+    padding: 30px;
+    color: whitesmoke;
+}
+#footer-links a{
+    word-spacing: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+#heading{
+    padding-left: 10vw;
+}
+
+#iphone{
+    padding-left: 10vw;
+}

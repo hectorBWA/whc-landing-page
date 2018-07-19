@@ -1,20 +1,123 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
 
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-xl-12" id="nav" >
+    <div class="row">
+        <div class="col-sm-9">
+            <a href="#top" id="home">Start Bootstrap</a>
+          </div>
+          <div class="col-sm-3">
+            <a href="#dwnload">DOWNLOAD</a> / <a href="#feat">FEATURES</a> / <a href="#cont">CONTACT</a>
+          </div>
+    </div>
+    </div>
+    <a id="top"></a>
+    <div class="col-xl-12" id="landing" >
+        
+        <div class="row">
+            <div class="col-sm-6" id="heading">
+              <p>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</p>
+              <a href="#dwnload"><button id="btn-free" >Start for free!</button></a>
+            </div>
+            <div class="col-sm-6" id="iphone">
+          <img src="assets/images/iphone.png" style="width:200px;" alt="">
+            </div>
+          </div>
+    </div>
+
+    <div class="col-xl-12" id="download">
+    <a id="dwnload"></a>
+        <div class="row">
+          <div class="col-sm-8" class="mx-auto" id="download-details">
+            <h1>Discover what all<br> the buzz is about!</h1>
+            <p>Our app is available on any mobile device! Download now to get started!</p>
+            <button id="btn-free">download button</button>
+          </div>
+        </div>
+    </div>
+
+    
+  <div class="col-xl-12" id="features" >
+      <a id="feat"></a>
+    <div class="row">
+        <div class="col-xl-8" class="mx-auto" id="features-details">
+          <h1>Unlimited Features, Unlimited Fun</h1>
+          <p>Check out what you can do with this app theme!</p>
+        </div>
+      </div>
+      <div class="row" id="extra">
+        <div class="col-sm-4">
+          <img src="assets/images/iphone.png" style="width:200px;" alt="">
+        </div>
+        
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="col-6">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                  <h1>Device Mockups</h1>
+                  <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                </div>
+                <div class="col-6">
+                    <i class="fa fa-camera" aria-hidden="true"></i>
+                    <h1>Flexible Use</h1>
+                    <p>Put an image, video, animation, or anything else in the screen!</p>
+                </div>
+                <div class="col-6">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+                    <h1>Free to Use</h1>
+                    <p>As always, this theme is free to download and use for any purpose!</p>
+                </div>
+                <div class="col-6">
+                    <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                    <h1>Open Source</h1>
+                    <p>Since this theme is MIT licensed, you can use it commercially!</p>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <div class="col-xl-12" id="start" >
+        <div class="row">
+          <div class="col-xl-6" id="start-details">
+            <p>Stop waiting.</p>
+            <p>Start building.</p>
+            <a href="#cont"><button id="btn-start">Let's Get Started</button></a>
+          </div>
+        </div>
+    </div>
+
+    <div class="col-xl-12" id="social" >
+        <a id="cont"></a>
+      <div class="row">
+        <div class="col-sm-8" class="mx-auto" id="social-details">
+            <h1>We <i class="fa fa-heart" aria-hidden="true"style="color:red;font-size:50px;"></i> New Friends!!</h1>
+            <a href=""><i class="fa fa-twitter-square" aria-hidden="true" style="color:rgb(81, 81, 250);"></i></a>
+            <a href=""><i class="fa fa-facebook-official" aria-hidden="true" style="color:rgb(21, 21, 245);"></i></a>
+            <a href=""><i class="fa fa-google-plus-official" aria-hidden="true" style="color:rgb(247, 39, 39);"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-12" id="footer" >
+        <div class="row">
+            <div class="col-xl-4" class="mx-auto" id="footer-details">
+              <p>© Your Website 2018. All Rights Reserved.</p>
+            </div>
+          </div>
+    <div class="row">
+        <div class="col-xl-4" class="mx-auto" id="footer-links">
+            <a href="">Privacy</a> /  <a href="">Terms</a> /  <a href="">FAQ</a>
+        </div>
+      </div>
+    </div>
+  
+
+
+  </div>
+</div>
