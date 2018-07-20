@@ -23,7 +23,7 @@
     height: 110vh;
     font-size: 40px;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 #btn-free{
     font-size: 15px;
@@ -59,7 +59,7 @@
 #features{
     background-color: whitesmoke;
     /* padding-top: 10vh; */
-    height: 120vh;
+    height: 125vh;
     text-align: center;
 }
 #features-details{
@@ -136,4 +136,27 @@
 
 #iphone{
     padding-left: 10vw;
+}
+#drop-link{
+    right: 0;
+    display: none;
+}
+img{
+    width: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-link {
+        display: none;
+    }
+    #drop-link{
+        float: right;
+        display: block;
+    }
+    #landing{
+        font-size: 20px;
+    }
+    img{
+        width: 100px;
+    }
 }
